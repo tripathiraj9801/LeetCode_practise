@@ -1,6 +1,5 @@
 # https://leetcode.com/problems/best-team-with-no-conflicts/description/
 class Solution:
-    def bestTeamScore(self, scores: List[int], ages: List[int]) -> int:
         pairs = sorted(zip(ages, scores))
         dp = [pair[1] for pair in pairs]
         answer = dp[0]
