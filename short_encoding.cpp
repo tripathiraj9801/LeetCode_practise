@@ -10,7 +10,6 @@ public:
 
         set<string> s1(words.begin(), words.end());
         set<string> s2(words.begin(), words.end());
-
         // now iterate over the given words for cheking the endoing words
         for (auto word : words)
         {
