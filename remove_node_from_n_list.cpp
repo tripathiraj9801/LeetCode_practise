@@ -52,3 +52,5 @@ public:
         return ret;
     }
 };
+
+// Solution in Java programi
